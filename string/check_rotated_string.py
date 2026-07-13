@@ -15,8 +15,8 @@ goal, input_str = 'aaaba', 'aabaa'
 print(is_rotated(goal, input_str))
 
 # #COMPLEXITIES
-# TIME: O(N)
-# SPACE: O(1)
+# TIME: O(N)    because checking for a substring in s + s is linear in time.
+# SPACE: O(N)   new string creation - concatenation - goal+goal
 
 
 ## MY SOLUTION WILL NOT WORK FOR THE CASES WHEN THERE ARE MULTIPLE CHARACTERS THAT ARE SAME, AND IF THERE CAN BE MULTIPLE OPTIONS OF STRING ROTATION
